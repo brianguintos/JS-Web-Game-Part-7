@@ -20,7 +20,7 @@ function newNonPlayableCharacter(x, y) {
         element.style.left = x + 'px'
         element.style.bottom = y + 'px'
     }
-
+//test
     setInterval(moveCharacter, 1)
 
     async function walkEast(time) {
